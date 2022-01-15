@@ -18,7 +18,7 @@ import pyvista as pv
 
 # Outside Imports:
 import vtk  # NOTE: This is the first import executed in the package! Keep here!!
-import vtk.util.vtkAlgorithm as valg  # import VTKPythonAlgorithmBase
+import vtkmodules.util.vtkAlgorithm as valg  # import VTKPythonAlgorithmBase
 
 from . import _helpers
 
